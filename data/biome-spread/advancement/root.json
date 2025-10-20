@@ -1,0 +1,40 @@
+{
+    "criteria": {
+    "entered_surface_nether": {
+        "conditions": {
+        "player": {
+            "location": {
+                "biomes": [
+                    "minecraft:basalt_deltas",
+                    "minecraft:nether_wastes",
+                    "minecraft:soul_sand_valley",
+                    "minecraft:crimson_forest",
+                    "minecraft:warped_forest"
+            ],
+            "dimension": "minecraft:overworld"
+            }
+        }
+        },
+        "trigger": "minecraft:location"
+    }
+    },
+    "display": {
+    "frame": "task",
+    "announce_to_chat": false,
+    "background": "minecraft:block/oxidized_chiseled_copper",
+    "description": "???",
+    "icon": {
+        "count": 1,
+        "id": "crying_obsidian"
+    },
+    "show_toast": false,
+    "title": "???",
+    "hidden": false
+    },
+    "requirements": [
+    [
+        "entered_surface_nether"
+    ]
+    ],
+    "sends_telemetry_event": true
+}

@@ -1,0 +1,11 @@
+{
+    "values": [
+        "#is_jungle",
+        "forest",
+        "dark_forest",
+        "#is_river",
+        "#is_taiga",
+        "swamp",
+        "mangrove_swamp"
+    ]
+}

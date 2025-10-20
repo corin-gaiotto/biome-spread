@@ -1,0 +1,2 @@
+function biome-spread:corrupt_block/to_blackstone/biome
+function biome-spread:corrupt_block/to_blackstone/block

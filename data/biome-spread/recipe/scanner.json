@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "eCe",
+    "CcC",
+    "eCe"
+  ],
+  "key": {
+    "c": [
+      "minecraft:compass"
+    ],
+    "C": [
+      "minecraft:copper_block"
+    ],
+    "e": [
+      "minecraft:blaze_rod",
+      "minecraft:pale_moss_block",
+      "minecraft:sculk"
+    ]
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "components": {
+      "minecraft:unbreakable": {},
+      "minecraft:tooltip_display": {
+        "hide_tooltip": false,
+        "hidden_components": [
+          "minecraft:unbreakable"
+        ]
+      },
+      "minecraft:custom_data": {
+        "scanner": true
+      },
+      "minecraft:item_model": "minecraft:music_disc_creator_music_box",
+      "minecraft:custom_name": {
+        "text": "Biome Radar",
+        "color": "#62a0ea",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Scans a 33x33x33 area for impure biomes/blocks",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Using removes any other nearby scans",
+          "color": "gray",
+          "italic": false
+        },
+        [
+          {
+            "keybind": "key.use",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": " to use"
+          }
+        ]
+      ]
+    },
+    "count": 1
+  }
+}

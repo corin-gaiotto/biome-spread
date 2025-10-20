@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:pale_moss_block",
+    "minecraft:resin_block"
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "minecraft:custom_data": {
+        "thrown_powder": true,
+        "pale_powder": true
+      },
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "minecraft:potion",
+      "minecraft:potion_contents": {
+        "custom_color": 12174803
+      },
+      "minecraft:custom_name": [
+        {
+          "text": "Pale Powder",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Spreads the Pale Garden",
+          "color": "gray",
+          "italic": false,
+          "obfuscated": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "potion_contents"
+        ]
+      }
+    },
+    "count": 32
+  }
+}

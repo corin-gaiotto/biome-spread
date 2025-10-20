@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "obtain":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "sculk"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "biome-spread:sculk_powder"
+        ]
+    }
+}

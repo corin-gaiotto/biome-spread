@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand, tag=obelisk_spawn] at @s run function biome-spread:obelisk/place_obelisk

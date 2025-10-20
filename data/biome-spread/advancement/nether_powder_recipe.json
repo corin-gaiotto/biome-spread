@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "obtain":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "warped_fungus",
+                            "crimson_fungus"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "biome-spread:nether_powder"
+        ]
+    }
+}

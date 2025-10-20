@@ -1,0 +1,46 @@
+{
+    "criteria": {
+    "entered_surface_nether": {
+        "conditions": {
+        "player": {
+            "location": {
+                "biomes": [
+                    "minecraft:basalt_deltas",
+                    "minecraft:nether_wastes",
+                    "minecraft:soul_sand_valley",
+                    "minecraft:crimson_forest",
+                    "minecraft:warped_forest"
+            ],
+            "dimension": "minecraft:overworld"
+            }
+        }
+        },
+        "trigger": "minecraft:location"
+    }
+    },
+    "display": {
+    "frame": "task",
+    "announce_to_chat": true,
+    "description": "Entered an overworld Nether biome",
+    "icon": {
+        "count": 1,
+        "id": "minecraft:netherrack"
+    },
+    "show_toast": true,
+    "title": "...wait, what?",
+    "hidden": true
+    },
+    "requirements": [
+    [
+        "entered_surface_nether"
+    ]
+    ],
+    "sends_telemetry_event": true,
+    "parent": "biome-spread:root",
+    "rewards": {
+        "experience": 20,
+        "recipes": [
+            "biome-spread:purification_powder"
+        ]
+    }
+}

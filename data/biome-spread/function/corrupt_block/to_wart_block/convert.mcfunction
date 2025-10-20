@@ -1,0 +1,2 @@
+function biome-spread:corrupt_block/to_wart_block/biome
+function biome-spread:corrupt_block/to_wart_block/block

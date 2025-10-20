@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:golden_apple",
+    [
+      "minecraft:red_mushroom",
+      "minecraft:brown_mushroom"
+    ],
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "minecraft:custom_data": {
+        "thrown_powder": true,
+        "purification_powder": true
+      },
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "minecraft:potion",
+      "minecraft:potion_contents": {
+        "custom_color": 10076657
+      },
+      "minecraft:custom_name": [
+        {
+          "text": "Purification Powder",
+          "color": "aqua",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Cleanses the evil",
+          "color": "gray",
+          "italic": false,
+          "obfuscated": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "potion_contents"
+        ]
+      }
+    },
+    "count": 32
+  }
+}

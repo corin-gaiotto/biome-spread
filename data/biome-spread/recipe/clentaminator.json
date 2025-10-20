@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "Ll ",
+    "dRD",
+    "I  "
+  ],
+  "key": {
+    "L": "minecraft:redstone_lamp",
+    "l": "minecraft:lightning_rod",
+    "d": "diamond",
+    "I": "minecraft:iron_block",
+    "R": "minecraft:redstone_block",
+    "D": "minecraft:dragon_head"
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "components": {
+      "minecraft:unbreakable": {},
+      "minecraft:tooltip_display": {
+        "hide_tooltip": false,
+        "hidden_components": [
+          "minecraft:unbreakable"
+        ]
+      },
+      "minecraft:custom_data": {
+        "clentaminator": true
+      },
+      "minecraft:item_model": "minecraft:dragon_head",
+      "minecraft:enchantment_glint_override": false,
+      "minecraft:custom_name": {
+        "text": "Clentaminator",
+        "color": "#dc8add",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Consumes 4 powder in offhand,",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "spreading it over a large area",
+          "color": "gray",
+          "italic": false
+        },
+        [
+          {
+            "keybind": "key.use",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": " to use"
+          }
+        ]
+      ]
+    },
+    "count": 1
+  }
+}

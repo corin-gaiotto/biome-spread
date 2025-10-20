@@ -1,0 +1,12 @@
+{
+    "values": [
+        "#biome-spread:corrupts_to/basalt",
+        "#biome-spread:corrupts_to/blackstone",
+        "#biome-spread:corrupts_to/netherrack",
+        "#biome-spread:corrupts_to/nylium",
+        "#biome-spread:corrupts_to/smooth_basalt",
+        "#biome-spread:corrupts_to/soul",
+        "#biome-spread:corrupts_to/stem",
+        "#biome-spread:corrupts_to/wart_block"
+    ]
+}

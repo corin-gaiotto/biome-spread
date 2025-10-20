@@ -1,0 +1,22 @@
+{
+    "values": [
+        "#is_badlands",
+        "#is_beach",
+        "forest",
+        "dark_forest",
+        "birch_forest",
+        "grove",
+        "desert",
+        "old_growth_birch_forest",
+        "#is_hill",
+        "#is_jungle",
+        "#is_mountain",
+        "#is_river",
+        "#is_savanna",
+        "#is_taiga",
+        "swamp",
+        "mangrove_swamp",
+        "plains",
+        "sunflower_plains"
+    ]
+}

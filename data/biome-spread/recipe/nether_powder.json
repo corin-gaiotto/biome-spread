@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:warped_fungus",
+    "minecraft:crimson_fungus"
+  ],
+  "result": {
+    "id": "minecraft:poisonous_potato",
+    "components": {
+      "minecraft:custom_data": {
+        "thrown_powder": true,
+        "nether_powder": true
+      },
+      "!minecraft:consumable": {},
+      "minecraft:item_model": "minecraft:potion",
+      "minecraft:potion_contents": {
+        "custom_color": 10820909
+      },
+      "minecraft:custom_name": [
+        {
+          "text": "Nether Powder",
+          "color": "dark_red",
+          "italic": false
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text": "Spreads the Nether",
+          "color": "gray",
+          "italic": false,
+          "obfuscated": false
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "potion_contents"
+        ]
+      }
+    },
+    "count": 8
+  }
+}

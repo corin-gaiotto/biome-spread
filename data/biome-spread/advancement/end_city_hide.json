@@ -1,0 +1,40 @@
+{
+    "criteria": {
+    "end_city": {
+        "conditions": {
+        "player": {
+            "location": {
+                "structures":"end_city"
+            }
+        }
+        },
+        "trigger": "minecraft:location"
+    }
+    },
+    "display": {
+    "frame": "task",
+    "announce_to_chat": false,
+    "description": "Clentaminator, Obelisk of Purity",
+    "icon": {
+        "count": 1,
+        "id": "minecraft:knowledge_book"
+    },
+    "show_toast": false,
+    "title": "Crafting Recipes Unlocked",
+    "hidden": true
+    },
+    "requirements": [
+    [
+        "end_city"
+    ]
+    ],
+    "sends_telemetry_event": true,
+    "parent": "biome-spread:end_city",
+    "rewards": {
+        "experience": 20,
+        "recipes": [
+            "biome-spread:clentaminator",
+            "biome-spread:obelisk"
+        ]
+    }
+}

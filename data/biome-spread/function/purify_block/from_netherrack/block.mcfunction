@@ -1,0 +1,1 @@
+fill ~ ~ ~ ~ ~ ~ dirt replace netherrack

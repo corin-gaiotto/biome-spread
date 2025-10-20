@@ -1,0 +1,31 @@
+{
+    "criteria": {
+    "purify": {
+        "trigger": "impossible"
+    }},
+    "display": {
+    "frame": "task",
+    "announce_to_chat": true,
+    "description": "Witness the Pale Garden spreading",
+    "icon": {
+        "count": 1,
+        "id": "minecraft:creaking_heart"
+    },
+    "show_toast": true,
+    "title": "Resinous Growth",
+    "hidden": true
+    },
+    "requirements": [
+    [
+        "purify"
+    ]
+    ],
+    "sends_telemetry_event": true,
+    "parent": "biome-spread:root",
+    "rewards": {
+        "experience": 25,
+        "recipes": [
+            "biome-spread:purification_powder"
+        ]
+    }
+}

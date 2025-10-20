@@ -1,0 +1,31 @@
+{
+    "criteria": {
+    "purify": {
+        "trigger": "impossible"
+    }},
+    "display": {
+    "frame": "task",
+    "announce_to_chat": true,
+    "description": "Use the Obelisk of Purity to protect an area from spread",
+    "icon": {
+        "count": 1,
+        "id": "minecraft:respawn_anchor",
+        "components": {
+            "enchantment_glint_override": false
+        }
+    },
+    "show_toast": true,
+    "title": "Stasis Bubble",
+    "hidden": false
+    },
+    "requirements": [
+    [
+        "purify"
+    ]
+    ],
+    "sends_telemetry_event": true,
+    "parent": "biome-spread:end_city_hide",
+    "rewards": {
+        "experience": 80
+    }
+}

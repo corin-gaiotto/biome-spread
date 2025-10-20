@@ -1,0 +1,1 @@
+kill @e[tag=indicator,distance=..128]

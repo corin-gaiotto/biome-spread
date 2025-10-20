@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "obtain":{
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "pale_moss_block",
+                            "resin_clump"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "biome-spread:pale_powder"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "criteria": {
+    "purify": {
+        "trigger": "impossible"
+    }},
+    "display": {
+    "frame": "task",
+    "announce_to_chat": true,
+    "description": "Use a Biome Radar to help catch evil before it spreads",
+    "icon": {
+        "count": 1,
+        "id": "minecraft:music_disc_creator_music_box"
+    },
+    "show_toast": true,
+    "title": "Area Detection",
+    "hidden": false
+    },
+    "requirements": [
+    [
+        "purify"
+    ]
+    ],
+    "sends_telemetry_event": true,
+    "parent": "biome-spread:purify",
+    "rewards": {
+        "experience": 40
+    }
+}

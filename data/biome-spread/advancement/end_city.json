@@ -1,0 +1,40 @@
+{
+    "criteria": {
+    "end_city": {
+        "conditions": {
+        "player": {
+            "location": {
+                "structures":"end_city"
+            }
+        }
+        },
+        "trigger": "minecraft:location"
+    }
+    },
+    "display": {
+    "frame": "task",
+    "announce_to_chat": true,
+    "description": "Explore an End City, and learn about the containment of evil",
+    "icon": {
+        "count": 1,
+        "id": "minecraft:purpur_pillar"
+    },
+    "show_toast": true,
+    "title": "Ancient Knowledge",
+    "hidden": false
+    },
+    "requirements": [
+    [
+        "end_city"
+    ]
+    ],
+    "sends_telemetry_event": true,
+    "parent": "biome-spread:scan",
+    "rewards": {
+        "experience": 20,
+        "recipes": [
+            "biome-spread:clentaminator",
+            "biome-spread:obelisk"
+        ]
+    }
+}

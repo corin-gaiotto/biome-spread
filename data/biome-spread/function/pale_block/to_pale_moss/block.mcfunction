@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ moss_block run fill ~ ~ ~ ~ ~ ~ pale_moss_block
+execute if block ~ ~ ~ grass_block unless biome ~ ~ ~ pale_garden if predicate biome-spread:chances/pale_moss run fill ~ ~ ~ ~ ~ ~ pale_moss_block

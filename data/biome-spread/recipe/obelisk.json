@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "E",
+    "G",
+    "A"
+  ],
+  "key": {
+    "A": "minecraft:respawn_anchor",
+    "E": "minecraft:end_rod",
+    "G": "minecraft:golden_apple"
+  },
+  "result": {
+    "id": "minecraft:armor_stand",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "NoGravity": true,
+        "Invulnerable": true,
+        "Tags": [
+          "obelisk_spawn"
+        ],
+        "Invisible": true,
+        "Marker": true,
+        "NoBasePlate": true,
+        "Small": false
+      },
+      "minecraft:custom_name": {
+        "text": "Obelisk of Purity",
+        "color": "aqua",
+        "shadow_color": 9433252,
+        "italic": false,
+        "underlined": false
+      },
+      "minecraft:lore": [
+          {
+            "text": "Protects a 128 block radius",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "from biome spread.",
+            "color": "gray",
+            "italic": false
+          },
+          [
+            {
+            "keybind": "key.use",
+            "color": "gray",
+            "italic": false,
+            "bold": true
+            },
+            {
+            "text": ": toggle radius particles",
+            "bold": false
+            }
+            ]
+      ],
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:item_model": "minecraft:respawn_anchor"
+    },
+    "count": 1
+  }
+}

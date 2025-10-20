@@ -1,0 +1,28 @@
+{
+    "values": [
+        "basalt",
+        "blackstone",
+        "netherrack",
+        "warped_nylium",
+        "crimson_nylium",
+        "warped_stem",
+        "crimson_stem",
+        "warped_wart_block",
+        "nether_wart_block",
+        "magma_block",
+        "glowstone",
+        "shroomlight",
+        "minecraft:polished_basalt",
+        "soul_sand",
+        "soul_soil",
+        "pale_moss_block",
+        "pale_moss_carpet",
+        "pale_oak_leaves",
+        "pale_oak_log",
+        "creaking_heart",
+        "sculk",
+        "sculk_catalyst",
+        "sculk_sensor",
+        "sculk_shrieker"
+    ]
+}

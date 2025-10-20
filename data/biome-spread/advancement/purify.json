@@ -1,0 +1,31 @@
+{
+    "criteria": {
+    "purify": {
+        "trigger": "impossible"
+    }},
+    "display": {
+    "frame": "task",
+    "announce_to_chat": true,
+    "description": "Use purification powder to cleanse biomes",
+    "icon": {
+        "count": 1,
+        "id": "minecraft:golden_apple"
+    },
+    "show_toast": true,
+    "title": "Fighting the Infection",
+    "hidden": false
+    },
+    "requirements": [
+    [
+        "purify"
+    ]
+    ],
+    "sends_telemetry_event": true,
+    "parent": "biome-spread:overworld_nether",
+    "rewards": {
+        "experience": 40,
+        "recipes": [
+            "biome-spread:scanner"
+        ]
+    }
+}
