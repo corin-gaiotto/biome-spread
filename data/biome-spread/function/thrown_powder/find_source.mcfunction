@@ -1,4 +1,3 @@
-say finding source
 # if has thrower tag, then was thrown by a player; since this is first tick since thrown, assume closest player and triangulate from there
 execute at @s if data entity @s Thrower run function biome-spread:thrown_powder/shoot_from_player
 
