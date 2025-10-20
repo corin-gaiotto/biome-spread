@@ -1,4 +1,3 @@
-say dispenser
 # compare 3 motion values
 scoreboard objectives add biomeSpread.powder.motion dummy
 
