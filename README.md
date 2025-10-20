@@ -1,5 +1,10 @@
 # BIOME SPREAD DATAPACK
 
+## Other download options:
+- [Modrinth](https://modrinth.com/datapack/biome-spread)
+- [Curseforge](https://legacy.curseforge.com/minecraft/data-packs/biome-spread)
+- [Planet Minecraft](https://www.planetminecraft.com/data-pack/biome-spread/)
+
 ## Setup
 Head to the Releases tab and pick a release. Install the .zip file and unpack it into a folder called "biome-spread".
 
